@@ -1,0 +1,94 @@
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  user-select: none;
+}
+
+.logo-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 4px 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-image-wrapper {
+  box-shadow: 0 6px 20px rgba(217, 136, 78, 0.35);
+  transform: scale(1.03);
+}
+
+.logo-mark {
+  color: var(--accent-warm);
+  height: auto;
+}
+
+/* Size Variants */
+.logo-sm .logo-mark {
+  max-height: 28px;
+  width: 28px;
+}
+.logo-sm .logo-image-wrapper {
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+
+.logo-md .logo-mark {
+  max-height: 38px;
+  width: 38px;
+}
+.logo-md .logo-image-wrapper {
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.logo-lg .logo-mark {
+  max-height: 54px;
+  width: 54px;
+}
+.logo-lg .logo-image-wrapper {
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.logo-xl .logo-mark {
+  max-height: 72px;
+  width: 72px;
+}
+.logo-xl .logo-image-wrapper {
+  padding: 12px 24px;
+  border-radius: 16px;
+}
+
+.logo-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.logo-sm .logo-title { font-size: 0.95rem; }
+.logo-md .logo-title { font-size: 1.15rem; }
+.logo-lg .logo-title { font-size: 1.4rem; }
+.logo-xl .logo-title { font-size: 1.8rem; }
+
+.logo-subtitle {
+  color: var(--accent-warm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.logo-sm .logo-subtitle { font-size: 0.65rem; }
+.logo-md .logo-subtitle { font-size: 0.75rem; }
+.logo-lg .logo-subtitle { font-size: 0.85rem; }
+.logo-xl .logo-subtitle { font-size: 0.95rem; }
