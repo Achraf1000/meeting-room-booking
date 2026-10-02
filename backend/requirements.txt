@@ -1,5 +1,5 @@
 fastapi==0.141.1
-uvicorn[standard]==0.53.0
+uvicorn[standard]==0.54.0
 pyodbc==5.3.0
 PyJWT==2.14.0
 passlib[argon2]==1.7.4
