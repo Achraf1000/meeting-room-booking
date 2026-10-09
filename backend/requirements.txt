@@ -6,4 +6,4 @@ passlib[argon2]==1.7.4
 argon2-cffi==23.1.0
 python-multipart==0.0.32
 pydantic[email]==2.13.5
-python-dotenv==1.2.3
+python-dotenv==1.2.4
